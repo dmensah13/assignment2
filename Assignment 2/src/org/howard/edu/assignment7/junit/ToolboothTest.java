@@ -14,7 +14,7 @@ public class ToolboothTest {
 	@DisplayName("Tests Ford Trucks in TestBooth")
 	public static void main(String[] args) {
 		TollBooth testBooth = new ChicagoTollbooth();
-		Truck testFord1 = new Ford(5, 12000, "Ford V2");
+		Truck testFord1 = new Truck(5, 12000, "Ford V2");
 		Truck testFord2 = new Ford(4, 10000, "Ford V3");
 		Truck testFord3 = new Ford(7, 15000, "Ford V4");
 		

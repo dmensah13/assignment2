@@ -5,7 +5,7 @@ public class Tollbooth {
 	 * The abstract class Truck contains all the attributes
 	 * that a Truck object will have
 	 */
-	public static abstract class Truck {
+	public abstract class Truck {
 		public abstract int total_axles();
 		public abstract int total_weight();
 		public abstract String truck_make();
